@@ -6,11 +6,11 @@
 export const environment = {
   production: false,
   firebaseConfig: {
-    apiKey: '',
-    authDomain: '',
-    databaseURL: '',
-    projectId: '',
-    storageBucket: '',
+    apiKey: 'AIzaSyAwp7hhcZGyNfZOY8AOeIrpzkzL69quiS0',
+    authDomain: 'localhost',
+    databaseURL: 'https://watsappclone-fd0b8.firebaseio.com/',
+    projectId: 'watsappclone-fd0b8',
+    storageBucket: 'photos',
     messagingSenderId: ''
   }
 };

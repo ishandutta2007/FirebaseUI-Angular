@@ -1,4 +1,5 @@
 import {NgModule} from '@angular/core';
+import {FormsModule} from '@angular/forms';
 import {CommonModule} from '@angular/common';
 import {SecondPageComponent} from './second-page.component';
 import {FirebaseUIModule} from 'firebaseui-angular';
@@ -13,6 +14,7 @@ const routes: Routes = [
   imports: [
     CommonModule,
     FirebaseUIModule,
+    FormsModule,
     RouterModule.forChild(routes)
   ],
   declarations: [SecondPageComponent]
